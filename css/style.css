@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+header{
+    width: 100%;
+    background: url(../img/bg-header.png);
+    background-size: cover;
+    height: 100vh;
+}
+header nav{
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+header nav ul li a{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding: 12px 30px;
+}
+header nav ul li a:hover {
+    border: 2px solid white;
+}
+header #hero{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 180px;
+}
+header #hero h1{
+    color: yellow;
+    font-size: 60px;
+    margin: 0;
+}
+header #hero h2{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+header #hero a{
+    background: yellow;
+    padding: 12px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 8px;
+    color: grey;
+    transition: .5s;
+}
+header #hero a:hover{
+    padding: 12px 60px;
+    border-radius: 0;
+    background: white;
+}
+/*Sccion planes*/
+#planes{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #ffffff;
+}
+#planes .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#planes h2{
+    font-size: 45px;
+}
+
+#planes p{
+    font-size: 20px;
+    
+}
+#planes .fila{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+#planes .fila .card {
+    position: relative;
+
+}
+#planes .fila .card h3{
+    color: yellow;
+    position: absolute;
+    top: 28%;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+}
+/*Sccion Destinos*/
+#destinos{
+    background: url(../img/bg-destinos.png);
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+#destinos .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#destinos h2{
+    color: yellow;
+    font-size: 45px;
+    padding-top: 5%;
+    padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#destinos h3{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#destinos .fila{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+}
+/*Sección contactos*/
+#contacto{
+    background: yellow;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-size: cover;
+    text-align: center;
+
+}
+#contacto .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+#contacto h2 {
+   font-size: 35px;
+ }
+
+ #contacto p{
+     font-size: 20px;
+ }
+ #contacto input{
+     padding: 4px 15px;
+     font-size: 20px;
+     width: 300px;
+     margin: 20px;
+     border-radius: 4px;
+ }
+ #contacto  select{
+    padding: 5px 15px;
+    font-size: 20px;
+    width: 332px;
+    margin: 20px;
+    border-radius: 4px;
+}
+#contacto button{
+    font-size: 20px;
+    padding: 10px  30px;
+    color: #ffffff;
+    background: rgb(146, 146, 0);
+    border-radius: 4px;
+    border: none;
+}
+/*Sección footer*/
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+html{
+    scroll-behavior: smooth;
+}
